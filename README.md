@@ -18,7 +18,7 @@ The relationships for the first two deliverables were exposed utilizing an Excel
 
 The value in the field "launched_at" was converted from Unix timestamps to a more readable format using the following formula. 
 
- `=((([launched_at]/60)/60)/24)+DATE(1970,1,1)`
+ `((([launched_at]/60)/60)/24)+DATE(1970,1,1)`
 
 The result was used to populate a new field in the table which was named "Date Created Conversion".  This step was required in order to be able to filter the data by launch month.  At this point the dataset was used to create a pivot table (table 1).  Table 1 was filtered to show only "Theater" campaigns and the "live" campaigns were filtered out, the result is illustrated below.  Successful, failed and canceled campaigns are counted and summed by month.
 
