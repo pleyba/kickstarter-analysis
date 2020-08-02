@@ -1,5 +1,3 @@
-# kickstarter-analysis
-Performing analysis on Kickstarter data to uncover trends
 
 
 # **<u>K i c k s t a r t e r   C a m p a i g n   A n a l y s i s</u>**
