@@ -22,7 +22,7 @@ The value in the field "launched_at" was converted from Unix timestamps to a mor
 
 The result was used to populate a new field in the table which was named "Date Created Conversion".  This step was required in order to be able to filter the data by launch month.  At this point the dataset was used to create a pivot table (table 1).  Table 1 was filtered to show only "Theater" campaigns and the "live" campaigns were filtered out, the result is illustrated below.  Successful, failed and canceled campaigns are counted and summed by month.
 
-![](./resources/PT_Outcomes.png)
+![Pivot_Table](./resources/PT_Outcomes.png)
 
 
 
@@ -32,7 +32,7 @@ The chart (Chart 1) below was created using table 1 to show a view of the datase
 
 
 
-![](./resources/Theater_Outcomes_vx_Launch.png)
+![Chart1](./resources/Theater_Outcomes_vx_Launch.png)
 
 
 
@@ -42,7 +42,7 @@ The chart (Chart 1) below was created using table 1 to show a view of the datase
 
 A new table (table 2) was created containing "Funding Goal" value ranges spanning from 0 to 50,000 or greater.  The ranges incremented at an interval of 5000 as shown below.
 
-![](./resources/Goal_Amount_Breakdown.png)
+![Range_Table](./resources/Goal_Amount_Breakdown.png)
 
 
 
@@ -50,7 +50,7 @@ A new table (table 2) was created containing "Funding Goal" value ranges spannin
 
 These ranges and the Excel function  `CountIFS()` was used to update table 2 with values representing the count of Successful, Failed and Canceled "Plays" campaigns within each range.  Those totals were summed by range and a percentage was calculated.
 
-![](./resources/Goal_Amount_Breakdown_with_Values.png)
+![Range_Table_with_Values](./resources/Goal_Amount_Breakdown_with_Values.png)
 
 
 
@@ -58,7 +58,7 @@ These ranges and the Excel function  `CountIFS()` was used to update table 2 wit
 
 The chart (Chart 2) below was created using the ranges and percentages from table 2 to show a view of the dataset that is focused on the percentage and success of "Play" campaigns in each range from 2009 to 2017.
 
-![](./resources/Outcomes_vs_Goals.png)
+![Chart2](./resources/Outcomes_vs_Goals.png)
 
 
 
