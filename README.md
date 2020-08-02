@@ -1,4 +1,4 @@
-# **<u>K i c k s t a r t e r   C a m p a i g n   A n a l y s i s</u>**
+# **<u>Kickstarter Campaign Analysis</u>**
 
 ### <u>Project Overview</u>
 
